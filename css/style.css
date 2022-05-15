@@ -1,0 +1,454 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.container .right-header-section {
+    display: flex;
+    align-items: center;
+}
+
+.container .right-header-section ul {
+    display: flex;
+    border-right: 1px solid #939191;
+}
+
+.container .right-header-section ul li {
+    list-style: none;
+}
+
+.container .right-header-section ul li a {
+    text-decoration: none;
+    color: #1E1B1B;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container .assistance-icon-section {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.container .assistance-icon-section .assistance-icon-box {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.container .assistance-icon-section .assistance-icon-box img {
+    width: 100%;
+}
+
+.container .assistance-icon-section .assistance-icon-text {
+    width: 70%;
+}
+
+.container .assistance-icon-section .assistance-icon-text h5 {
+    color: #79827b;
+}
+
+.container .assistance-icon-section .assistance-icon-text p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.container .inner-section {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    min-height: 100vh;
+}
+
+.container .mechanic-logo-text {
+    width: 45%;
+}
+
+.container .mechanic-logo-text h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 60px;
+}
+
+.container .mechanic-section {
+    width: 55%;
+}
+
+.container .mechanic-section img {
+    width: 100%;
+}
+
+.orange-btn {
+    text-decoration: none;
+    text-align: center;
+    background: #FF6433;
+    width: 100px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.container .clock-section {
+    display: flex;
+}
+
+.container .clock-logo-section {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.container .clock-logo-section img {
+    width: 100%;
+}
+
+.container .clock-text-section {
+    width: 70%;
+}
+
+.container .clock-text-section h5 {
+    font-size: 10px;
+    color: #939191;
+}
+
+.container .clock-text-section p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.service {
+    background-color: #E2E6E9;
+}
+
+.container .service-section, .container .quote-section {
+    width: 45%;
+}
+
+.container .inner-service-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.container .service-list {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container .service-section h2 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.container .service-section .service-text-box a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E1B1B;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container .inner-service-section .quote-section h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.container .service-list .service-img-box {
+    width: 4%;
+    margin-right: 10px;
+}
+
+.container .service-list .service-img-box img {
+    width: 100%;
+}
+
+.container .service-list .service-text-box {
+    width: 70%;
+}
+
+.container .service-list h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.container .service-list p {
+    font-size: 12px;
+    opacity: 70%;
+    line-height: 1.7em;
+}
+
+.container .service-list .arrow-align {
+    display: flex;
+    align-items: center;
+}
+
+form input {
+    font-size: 12px;
+    font-weight: 500;
+    width: 100%;
+    padding: 15px 30px;
+    border: none;
+    margin-bottom: 3px;
+}
+
+.container .inner-process-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 50px 0;
+}
+
+.container .left-process, .container .right-process {
+    width: 45%;
+}
+
+.container .inner-process-section .left-process h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+.container .inner-process-section .left-process p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #1E1B1B;
+    opacity: 0.6;
+}
+
+.container .right-process-flex {
+    display: flex;
+}
+
+.container .right-process-flex .process-img {
+    width: 10%;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.container .right-process-flex .process-img img {
+    width: 100%;
+}
+
+.container .right-process-flex .process-img .line-box img {
+    width: 2px;
+}
+
+.container .right-process-flex .process-text {
+    width: 65%;
+}
+
+.container .right-process-flex .process-text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.container .right-process-flex .process-text p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #1E1B1B;
+    opacity: 0.6;
+}
+
+.offer {
+    background: #E2E6E9;
+    padding: 50px 0;
+    min-height: 100vh;
+}
+
+.offer .container .offer-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.offer .container .offer-heading h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.offer .container .offer-heading h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+.offer .container .offer-section {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.offer .container .offer-box {
+    background: #fff;
+    width: 24.5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.offer .container .offer-box p {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.offer .container .offer-box:hover {
+    background: #FF6433;
+    color: #fff;
+    cursor: pointer;
+}
+
+.offer .container .offer-box:nth-child(3) {
+    background: #FF6433;
+    color: #fff;
+}
+
+.offer .container .offer-link {
+    display: flex;
+    justify-content: end;
+}
+
+.offer .container a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E1B1B;
+    display: inline-block;
+    margin-right: 10px;  
+}
+
+#query {
+    background: #E2E6E9;
+    padding: 50px 0;
+}
+
+#query .container {
+    width: 100%;
+}
+
+#query .query-img .query-left {
+    width: 20%;
+    height: 400px;
+    background: url(../img/query-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+#query .query-img .query-center {
+    width: 40%;
+    height: 400px;
+    background: #FF6433;
+}
+#query .query-img .query-right {
+    width: 40%;
+    height: 400px;
+    background: url(../img/query-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#query .query-img {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#query .query-img .query-center .query-center-items {
+    padding: 100px 50px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#query .query-img .query-center .query-center-items h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;    
+}
+
+#query .query-img .query-center .query-center-items a {
+    text-decoration: none;
+    text-align: center;
+    background: #1E1B1B;
+    width: 100px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#query .query-rating {
+    display: flex;
+    justify-content: space-around;
+}  
+
+#query .query-rating h2 {
+    color: #661CE7;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#query .query-rating p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#brands .container .brands-section {
+    padding: 50px 0;
+}
+
+#brands .container .brands-section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#brands .container .brands-section .brands-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#brands .container .brands-section .brands-box .brands-img {
+    width: 20%;
+}
+
+#brands .container .brands-section .brands-box .brands-img img {
+    width: 100%;
+}
+
