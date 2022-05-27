@@ -1,0 +1,403 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.container .right-header-section {
+    display: flex;
+    align-items: center;
+}
+
+.container .right-header-section ul {
+    display: flex;
+    border-right: 1px solid #939191;
+}
+
+.container .right-header-section ul li {
+    list-style: none;
+}
+
+.container .right-header-section ul li a {
+    text-decoration: none;
+    color: #1E1B1B;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container .assistance-icon-section {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.container .assistance-icon-section .assistance-icon-box {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.container .assistance-icon-section .assistance-icon-box img {
+    width: 100%;
+}
+
+.container .assistance-icon-section .assistance-icon-text {
+    width: 70%;
+}
+
+.container .assistance-icon-section .assistance-icon-text h5 {
+    color: #79827b;
+}
+
+.container .assistance-icon-section .assistance-icon-text p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.service-section {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    position: relative;
+}
+
+.service-section .header-img {
+    width: 100%;
+    height: 550px;
+    background: url(../img/header-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-section .header-img img {
+    width: 100%;
+    height: 550px;
+}
+
+.service-section .header-bg {
+    width: 50%;
+    height: 550px;
+    background: #1E1B1B;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.service-section .header-bg h1 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.service-section .header-bg p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.service-section .header-bg a {
+    text-decoration: none;
+    text-align: center;
+    background: #FF6433;
+    width: 120px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#diagnostics {
+    background: #F5F5F5;
+    min-height: 100vh;
+}
+
+.container .diagnostics-section {
+    min-height: 500px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .diagnostics-section .auto-diagnostics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.container .diagnostics-section .auto-diagnostics-grid .grid-box {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .diagnostics-section .auto-diagnostics-grid .grid-box:nth-child(1) {
+    background: #FF6433;
+    color: #fff;
+}
+
+.diagnostics-section .auto-diagnostics {
+    background: #fff;
+}
+
+.diagnostics-section .auto-diagnostics .auto-diagnostics-items {
+    padding: 30px;
+}
+
+.diagnostics-section .auto-diagnostics .auto-diagnostics-items .diagnostics-link {
+    display: flex;
+    align-items: center;
+}
+
+.diagnostics-section .auto-diagnostics .auto-diagnostics-items .diagnostics-link a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1E1B1B;
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+.diagnostics-section .auto-diagnostics .auto-diagnostics-items .auto-diagnostics-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.diagnostics-section .auto-diagnostics .auto-diagnostics-items .auto-diagnostics-img img {
+    width: 100%;
+}
+
+.diagnostics-section .auto-diagnostics .auto-diagnostics-items .auto-diagnostics-text h2, .diagnostics-section .auto-diagnostics .auto-diagnostics-items .auto-diagnostics-text p {
+    margin-bottom: 20px;
+}
+
+.diagnostics-section .auto-diagnostics .auto-diagnostics-items .auto-diagnostics-text h2 {
+    font-size: 30px;
+}
+
+.diagnostics-section .auto-diagnostics .auto-diagnostics-items .auto-diagnostics-text p {
+    font-size: 18px;
+    line-height: 1.4em;
+    opacity: 0.6;
+}
+
+.auto-diagnostics, .auto-diagnostics-grid {
+    width: 48%;
+}
+
+.process-section {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.process-section .left-process h3 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.process-section .left-process, .process-section .right-process {
+    width: 48%;
+}
+
+.process-section .left-process .checkmark {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.process-section .left-process .checkmark .checkmark-img {
+    width: 7%;
+    margin-right: 20px;
+}
+
+.process-section .left-process .checkmark .checkmark-img img {
+    width: 100%;
+}
+
+.process-section .left-process .checkmark p {
+    width: 50%;
+    padding-top: 5px;
+    line-height: 1.5em;
+    font-weight: 700;
+}
+
+.process-section .right-process {
+    display: flex;
+    justify-content: space-between;
+}
+
+.process-section .right-process .right-process-img1, .process-section .right-process .right-process-img2 {
+    width: 48%;
+}
+
+.process-section .right-process .right-process-img1 img, .process-section .right-process .right-process-img2 img {
+    width: 100%;
+}
+
+.diagnose-section {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.diagnose-section .left-diagnose, .diagnose-section .right-diagnose {
+    width: 45%;
+}
+
+.diagnose-section .left-diagnose {
+    display: flex;
+    justify-content: space-between;
+}
+
+.diagnose-section .left-diagnose .left-diagnose-car1, .diagnose-section .left-diagnose .left-diagnose-car2 {
+    width: 48%;
+}
+.diagnose-section .left-diagnose .left-diagnose-car1 img, .diagnose-section .left-diagnose .left-diagnose-car2 img {
+    width: 100%;
+}
+
+.diagnose-section .right-diagnose h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+.diagnose-section .right-diagnose p {
+    font-size: 18px;
+    opacity: .6;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+.diagnose-section .right-diagnose a {
+    text-decoration: none;
+    text-align: center;
+    background: #FF6433;
+    width: 120px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#footer {
+    background: #1E1B1B;
+    opacity: .9;
+}
+
+#footer .footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer-dark-bg {
+    background: #1E1B1B;
+}
+
+.footer-dark-bg .footer-items {
+    padding: 20px 0;
+}
+
+.footer-section .left-footer-section h3 {
+    font-size: 30px;
+    line-height: 1.5em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-section .left-footer-section a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-section .right-footer-section .right-footer-section-text {
+    margin-bottom: 10px;
+}
+
+.footer-section .right-footer-section .right-footer-section-text h4 {
+    font-size: 14px;
+    color: #fff;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+.footer-section .right-footer-section .right-footer-section-text p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-dark-bg .footer-items ul {
+    list-style: none;
+}
+
+.footer-dark-bg .footer-items ul li {
+    display: inline-block;
+}
+
+.footer-dark-bg .footer-items ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-dark-bg .footer-items .footer-copyright a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #939191;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
